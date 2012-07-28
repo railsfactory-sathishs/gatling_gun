@@ -21,7 +21,7 @@ SPEC = Gem::Specification.new do |s|
   for managing and sending newletters.
   END_DESCRIPTION
 
-  s.required_ruby_version     = ">= 1.9.2"
+  s.required_ruby_version     = ">= 1.8.7"
   s.required_rubygems_version = ">= 1.3.7"
 
   s.files         = `git ls-files`.split("\n")
